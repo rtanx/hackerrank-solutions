@@ -31,10 +31,10 @@ func kFactorization(n int32, A []int32) []int32 {
 
 }
 
-func factor(fctr []int32) int32 {
-	res := int32(1)
-	for _, f := range fctr {
-		res *= f
-	}
-	return res
-}
+// func factor(fctr []int32) int32 {
+// 	res := int32(1)
+// 	for _, f := range fctr {
+// 		res *= f
+// 	}
+// 	return res
+// }

@@ -2,11 +2,6 @@ package mathematics
 
 /**
  * Problem : https://www.hackerrank.com/challenges/find-point/problem
- *
- * Domain : Mathematics
- * Sub Domain : Fundamentals
- * Difficulty : Easy
- * Author : Ridwan Maulana Tanjung
  */
 
 // FindPoint find the point reflection of P(Px,Py) as reflected to Q(Qx,Qy)
