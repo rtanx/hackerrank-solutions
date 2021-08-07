@@ -1,6 +1,6 @@
 package algorithms
 
-func migratoryBirds(arr []int32) int32 {
+func MigratoryBirds(arr []int32) int32 {
 	var t [5]int32
 	for _, v := range arr {
 		t[v-1] += 1

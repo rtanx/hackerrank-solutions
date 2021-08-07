@@ -1,6 +1,6 @@
 package algorithms
 
-func birthday(s []int32, d int32, m int32) int32 {
+func Birthday(s []int32, d int32, m int32) int32 {
 	var w int32
 	for i, v := range s {
 		itv := int32(1)

@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func kFactorization(n int32, A []int32) []int32 {
+func Kfactorization(n int32, A []int32) []int32 {
 	sort.SliceStable(A, func(i, j int) bool {
 		return A[i] > A[j]
 	})
@@ -30,11 +30,3 @@ func kFactorization(n int32, A []int32) []int32 {
 	return fctr
 
 }
-
-// func factor(fctr []int32) int32 {
-// 	res := int32(1)
-// 	for _, f := range fctr {
-// 		res *= f
-// 	}
-// 	return res
-// }

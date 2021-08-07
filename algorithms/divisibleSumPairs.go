@@ -4,7 +4,7 @@ import (
 	"sort"
 )
 
-func divisibleSumPairs(n int32, k int32, ar []int32) int32 {
+func DivisibleSumPairs(n int32, k int32, ar []int32) int32 {
 	sort.Slice(ar, func(i, j int) bool {
 		return ar[i] < ar[j]
 	})
